@@ -16,9 +16,5 @@ https://weatherapi.com/
 * Học viên : Trần Hoàng Vũ 22C01027 Lê Thị Thanh Xuân (22C01028) Mai Đức Toàn 22C01036 Võ Huỳnh Bích Diễm (22C01003)
 
 
-  
-After running the airflow DAG pipeline, you should expect the following view result in postgresl:  
-  
-![](img/img1.png)
 
 
