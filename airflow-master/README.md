@@ -1,8 +1,6 @@
 # Apache Airflow data pipeline
 ## Consuming Weather API and Storing on PostgreSql Database.
 
-### This set of code and instructions has the porpouse to instanciate a compiled environment with set of docker images like airflow webserver, airflow scheduler, postgresql, pyspark.
-
 ## Overview
 Với thông tin call API của 2 trang web sau.
 https://openweathermap.org/
@@ -53,7 +51,7 @@ Note: using localhost as example, in case the application sits on cloud virtual 
 ## Data Pipeline Run
 Go to airflow DAGs view , turn on the dag weather_data, and trigger it.  
 
-![](airflow-master/img/img2.png)
+![](img/img2.png)
 
 ## Checking DAG result
 
