@@ -9,7 +9,7 @@ Weather app in Django that gets the current weather for multiple cities. To do t
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
 
 ## Demo
-![](img/WeatherApp.png)
+![](img/WeatherApp2.png)
 
 ## Building
 
