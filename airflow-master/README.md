@@ -23,7 +23,7 @@ Clone this repository into your linux working directory and navegate into it.
 run commands:
 ```
 # Create Local Folder and give permissions
-sudo mkdir airflow && sudo chmod -R 777 airflow && cd airflow
+mkdir airflow && sudo chmod -R 777 airflow && cd airflow
 
 # Clone Git repository to the created folder
 git clone https://github.com/
@@ -35,10 +35,7 @@ sudo docker-compose up -d
 docker exec -it airflow-airflow-scheduler-1 airflow connections import /opt/airflow/variables/airflow_connections.json
 docker exec -it airflow-airflow-scheduler-1 airflow variables import /opt/airflow/variables/airflow_variables.json
 
-
 Cách 2: Thực hiện thêm thông tin bằng thủ công
-
-
 
 ## Accesses
 Access the Airflow UI through the link http://localhost:8080/  
@@ -56,20 +53,22 @@ Note: using localhost as example, in case the application sits on cloud virtual 
 ## Data Pipeline Run
 Go to airflow DAGs view , turn on the dag weather_data, and trigger it.  
 
-![weather_data](img/DAG.JPG)
+![](img/img2.png)
 
 ## Checking DAG result
 
 Open the postgres admin in a chrome web browser, go to Servers and add a server with the information described in the json file [pgadmin.json](pgadmin.json)
   
-Check the final views  
+Check the final tables
 
-SELECT * FROM VW_DATASET_1;  
+select * from df_astro;
 
-SELECT * FROM VW_DATASET_2;  
+select * from df_day;
+
+select * from df_hour;
   
 After running the airflow DAG pipeline, you should expect the following view result in postgresl:  
   
-![weather_data](img/views.JPG)
+![](img/img1.png)
 
 
