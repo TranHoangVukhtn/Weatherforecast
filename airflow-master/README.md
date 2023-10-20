@@ -53,7 +53,7 @@ Note: using localhost as example, in case the application sits on cloud virtual 
 ## Data Pipeline Run
 Go to airflow DAGs view , turn on the dag weather_data, and trigger it.  
 
-![](img/img2.png)
+![](airflow-master/img/img2.png)
 
 ## Checking DAG result
 
