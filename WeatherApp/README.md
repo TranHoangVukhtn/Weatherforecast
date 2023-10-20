@@ -51,14 +51,5 @@ Open [http://localhost:8000](http://localhost:8000) to view it in the browser an
 
 The page will NOT reload if you make any edits.<br>
 
-## Subscribe for free OpenWeather API
 
-Ypu can get your API from [OpenWeather](https://home.openweathermap.org/)
 
-## Learn More
-
-To learn more on Django web framework visit [Django](https://www.djangoproject.com/).
-
-Write your first Django app, check out the [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.2/intro/tutorial01/).
-
-Creating a Weather App in Django Using Python Requests, check out this YouTube Tutorial [Creating a Weather App in Django Using Python Requests](https://www.youtube.com/watch?v=v7xjdXWZafY&t=65s).
